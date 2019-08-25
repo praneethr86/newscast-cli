@@ -22,20 +22,10 @@ program
 program
   .command('sports')
   .arguments('<sport>')
-  .description('List trending Medium Stories by tag')
+  .description('List trending Sports Stories from F1, EPL world')
   .action(function(sport, options) {
     list('sports', {
       value: sport
-    });
-  });
-
-program
-  .command('medium')
-  .arguments('<topic>')
-  .description('List Medium Stories by topic')
-  .action(function(topic, options) {
-    list('medium', {
-      value: topic
     });
   });
 
