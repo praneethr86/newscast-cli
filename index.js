@@ -29,6 +29,16 @@ program
     });
   });
 
+program
+  .command('yourstory')
+  .arguments('<topic>')
+  .description('List articles for SocialStory latest from YourStory')
+  .action(function(topic, options) {
+    list('yourstory', {
+      value: topic
+    });
+  });
+
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
