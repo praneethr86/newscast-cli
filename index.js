@@ -12,7 +12,7 @@ program.version(pkg.version).description(pkg.description);
 program
   .command('eds')
   .arguments('<source>')
-  .description('List Editorials from TheHindu, ET & NYT')
+  .description('List Editorials from TheHindu, ET, NYT & Guardian')
   .action(function(source, options) {
     list('eds', {
       value: source
