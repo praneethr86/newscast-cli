@@ -49,6 +49,16 @@ program
     });
   });
 
+program
+  .command('hbr')
+  .arguments('<filter>')
+  .description('List articles for HBR')
+  .action(function(filter, options) {
+    list('hbr', {
+      value: filter
+    });
+  });
+
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
