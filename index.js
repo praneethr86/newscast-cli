@@ -39,6 +39,16 @@ program
     });
   });
 
+program
+  .command('projsyn')
+  .arguments('<topic>')
+  .description('List articles for Project Syndicate')
+  .action(function(topic, options) {
+    list('projsyn', {
+      value: topic
+    });
+  });
+
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
