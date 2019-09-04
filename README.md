@@ -7,12 +7,12 @@ But I am a command-line addict and it just made sense to build a CLI for my dail
 
 # Options
 
-| News Topic        | Modifier    | Value                | Description                         |
-| ----------------- | ----------- | -------------------- | ----------------------------------- |
-| Editorials        | `eds`       | `hindu`, `et`, `nyt` | Hindu, Economic Times, NewYorkTimes |
-| Sports            | `sports`    | `f1`, `epl`          | Formula1, English Premier League    |
-| YourStory         | `yourstory` | `social`             | YourStory Social news               |
-| Project Syndicate | `projsyn`   | `all`                | Project Syndicate latest articles   |
+| News Topic        | Modifier    | Value                                  | Description                                                       |
+| ----------------- | ----------- | -------------------------------------- | ----------------------------------------------------------------- |
+| Editorials        | `eds`       | `hindu`, `et`, `ie`, `hbl`, `guardian` | Hindu, Economic Times, IndianExpress, HinduBusinessLine, Guardian |
+| Sports            | `sports`    | `f1`, `epl`                            | Formula1, English Premier League                                  |
+| YourStory         | `yourstory` | `social`                               | YourStory Social news                                             |
+| Project Syndicate | `projsyn`   | `all`                                  | Project Syndicate latest articles                                 |
 
 # Usage
 
