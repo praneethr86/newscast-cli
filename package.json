@@ -17,12 +17,10 @@
   },
   "homepage": "https://github.com/codePrady/newscast-cli#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
     "commander": "^3.0.0",
     "default-pager": "^1.1.0",
     "html-to-text": "^5.1.1",
-    "html2commonmark": "^0.6.1",
     "inquirer": "^6.5.1",
     "marked": "^0.7.0",
     "marked-terminal": "^3.3.0",

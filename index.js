@@ -12,11 +12,21 @@ program.version(pkg.version).description(pkg.description);
 program
   .command('eds')
   .arguments('<source>')
-  .description(
-    'List Editorials from TheHindu, ET, Guardian, ProjectSyndicate, Economist'
-  )
+  .description('List Editorials from TheHindu, ET, Guardian')
   .action(function(source, options) {
     list('eds', {
+      value: source
+    });
+  });
+
+program
+  .command('magz')
+  .arguments('<source>')
+  .description(
+    'List Editorials from ProjectSyndicate, Economist, NewYorker, TheAtlantic'
+  )
+  .action(function(source, options) {
+    list('magz', {
       value: source
     });
   });
@@ -28,36 +38,6 @@ program
   .action(function(sport, options) {
     list('sports', {
       value: sport
-    });
-  });
-
-program
-  .command('yourstory')
-  .arguments('<topic>')
-  .description('List articles for SocialStory latest from YourStory')
-  .action(function(topic, options) {
-    list('yourstory', {
-      value: topic
-    });
-  });
-
-program
-  .command('projsyn')
-  .arguments('<topic>')
-  .description('List articles for Project Syndicate')
-  .action(function(topic, options) {
-    list('projsyn', {
-      value: topic
-    });
-  });
-
-program
-  .command('hbr')
-  .arguments('<filter>')
-  .description('List articles for HBR')
-  .action(function(filter, options) {
-    list('hbr', {
-      value: filter
     });
   });
 
