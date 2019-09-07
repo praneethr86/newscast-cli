@@ -25,7 +25,7 @@ program
   .command('magz')
   .arguments('<source>')
   .description(
-    'List Editorials from ProjectSyndicate, Economist, NewYorker, TheAtlantic'
+    'List Editorials from HarvardBusinessReview, ProjectSyndicate, Economist, NewYorker, TheAtlantic'
   )
   .action(function(source, options) {
     list('magz', {
