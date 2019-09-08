@@ -43,6 +43,16 @@ program
     });
   });
 
+program
+  .command('science')
+  .arguments('<source>')
+  .description('List articles from PopSci and SciAmerican')
+  .action(function(source, options) {
+    list('science', {
+      value: source
+    });
+  });
+
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
