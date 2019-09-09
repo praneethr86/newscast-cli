@@ -23,6 +23,14 @@ Some examples of how to run the tool:
 - Read magazines - `node index magz economist`
 - Read science news `node index science sciam`
 
+# How to add a news source
+
+- Add to index.js if you want new mode (eds, sports, etc.) and add parameter(topic, source, sport etc.)
+- Add website URL to consts.js
+- Add entry in post.js to call to fetch posts
+- Add file/function in newssrc folder (in relevant file) to scrape posts
+- Add to reader.js to scrape the posts content
+
 # Thanks
 
 Inspiration from [medium-cli](https://github.com/djadmin/medium-cli)
