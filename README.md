@@ -12,7 +12,7 @@ But I am a command-line addict and it just made sense to build a CLI for my dail
 | Editorials | `eds`     | `hindu`, `hindulead` `et`, `ie`, `iecolumns`, `hbl`, `guardian`, `livemint` | Hindu, HinduLead Editorial, Economic Times, IndianExpress, IndianExpress Columns, HinduBusinessLine, Guardian, LiveMint |
 | Sports     | `sports`  | `espnf1`, `autof1`, `epl`                                                   | ESPNF1, AutoSport F1, English Premier League                                                                            |
 | Magazines  | `magz`    | `economist`, `projsyn`, `hbr`,`atlantic`, `frontline`                       | The Economist, Project Syndicate, HarvardBusinessReview, TheAtlantic, Frontline                                         |
-| Science    | `science` | `sciam`                                                                     | ScientificAmerican, Todo: PopularScience                                                                                |
+| Science    | `science` | `sciam`, `popsci`                                                           | ScientificAmerican, PopularScience                                                                                      |
 | Tech News  | `tech`    | `techcrunch`, `tnw`                                                         | TechCrunch, TheNextWeb                                                                                                  |
 
 # Usage
