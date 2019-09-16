@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 'use strict';
-var path = require('path');
-var program = require('commander');
+const path = require('path');
+const program = require('commander');
 
-var list = require('./lib/list');
+const list = require('./lib/list');
 
-var pkg = require(path.join(__dirname, 'package.json'));
+const pkg = require(path.join(__dirname, 'package.json'));
 
 program.version(pkg.version).description(pkg.description);
 
