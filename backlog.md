@@ -7,8 +7,11 @@
 - Add more sources for Science category alone - But don't add too many as this is meant to have only favorites
 - Add some colors - Use Chalk package to improve colors
 - Estimate reading time - Like Medium does. That would be fun
-- Give URL links at the beginning or end - Will help if I have to cmd+click to open in browser (but do you need that?)
 - A lot more refactoring needed in code - Checkout best practices
 - Build a UI for this instead as a separate project - Use my React knowledge to build this
 
 ---
+
+## Done
+
+- Give URL links at the beginning or end - Will help if I have to cmd+click to open in browser (but do you need that?)
