@@ -10,6 +10,12 @@
 - A lot more refactoring needed in code - Checkout best practices
 - Build a UI for this instead as a separate project - Use my React knowledge to build this
 
+## Pending tasks
+- Write Tests
+- Integrate Travis/CLI if possible
+- learn how to publish as npm package
+- Deploy on heroku and give to UPSC Students and teachers
+
 ---
 
 ## Done
