@@ -14,7 +14,7 @@ Command line is the answer to all my problems. So this CLI will help me read all
 | Sports     | `sports`  | `espnf1`, `autof1`, `epl`                                                                  | ESPNF1, AutoSport F1, English Premier League                                                                            |
 | Magazines  | `magz`    | `economist`, `projsyn`, `hbr`,`atlantic`, `frontline`, `longreads`, `outlook`, `hinduexpl` | The Economist, Project Syndicate, HarvardBusinessReview, TheAtlantic, Frontline, LongReads, Outlook, TheHinduExplains   |
 | Science    | `science` | `sciam`, `popsci`                                                                          | ScientificAmerican, PopularScience                                                                                      |
-| Tech News  | `tech`    | `techcrunch`, `tnw` , `readwrite`                                                          | TechCrunch, TheNextWeb, ReadWrite                                                                                       |
+| Tech News  | `tech`    | `techcrunch`, `tnw` , `readwrite`, `bi`                                                    | TechCrunch, TheNextWeb, ReadWrite, BusinessInsider                                                                      |
 
 # Usage
 
