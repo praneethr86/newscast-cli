@@ -2,8 +2,9 @@
 
 **newcast-cli** is a work-in-progress project and will be upgraded every day
 
-It's boring to go to a ton of websites to read your favorite news. Of course there are tools like feedly (I so miss Google Reader!) to get it on the browser.
-But I am a command-line addict and it just made sense to build a CLI for my daily news feeds.
+This is where I read my news everyday now.
+Visiting a ton of websites is tedious. Reading on RSS feeds still keeps me on the browser and I end up visiting unwanted sites anyway.
+Command line is the answer to all my problems. So this CLI will help me read all my news, on the terminal, on a distraction free screen and let me focus on what news is important for me.
 
 # Options
 
