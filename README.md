@@ -2,7 +2,7 @@
 
 **newcast-cli** is a work-in-progress project and will be upgraded every day
 
-This is where I read my news everyday now.
+This is the one place I read all my news everyday now.
 Visiting a ton of websites is tedious. Reading on RSS feeds still keeps me on the browser and I end up visiting unwanted sites anyway.
 Command line is the answer to all my problems. So this CLI will help me read all my news, on the terminal, on a distraction free screen and let me focus on what news is important for me.
 
