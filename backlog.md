@@ -15,7 +15,6 @@
 - Integrate Travis/CLI if possible
 - learn how to publish as npm package
 - Deploy on heroku and give to UPSC Students and teachers
-
 - Transform this to a React app which reads RSS feed reader so it can have a UI
 
 ---
