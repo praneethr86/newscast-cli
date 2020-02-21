@@ -4,7 +4,7 @@
   "description": "News on the terminal - easiest way to read my daily news",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "string-to-stream": "^3.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^7.0.1"
   }
 }
